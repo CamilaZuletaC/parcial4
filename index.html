@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Parcial</title>
+	<style>
+
+	    .tema1{
+	    	background:#A0D4FD;
+	   	    position: absolute;
+			height: 100px;
+			width: 170px;
+			left: 20px;
+			top: 30px;
+		    border: solid 5px black;
+	    }
+
+	    .cuadro1{
+	    	background:#FDA0ED ;
+	   	position: absolute;
+			height: 450px;
+			width: 900px;
+			left: 224px;
+			top: 105px;
+		    border: solid 5px black;
+		    display: none;
+	    }
+
+	    .cuadroc1{
+	    	background:#A0BCFD;
+	   	    position: absolute;
+			height: 50px;
+			width: 200px;
+			left: 320px;
+			top: 370px;
+		    border: solid 5px black;
+		    
+	    }
+        
+        .tema2{
+	    	background:#A0D4FD;
+	   	    position: absolute;
+			height: 100px;
+			width: 170px;
+			right: 20px;
+			top: 480px;
+		    border: solid 5px black;
+	    }
+
+	    .cuadro2{
+	    	background:#FDA0ED ;
+	   	position: absolute;
+			height: 450px;
+			width: 900px;
+			right: 231px;
+			top: 105px;
+		    border: solid 5px black;
+		    display: none;
+		    
+	    }
+
+	    .cuadroc2{
+	    	background:#A0BCFD;
+	   	    position: absolute;
+			height: 50px;
+			width: 200px;
+			right: 350px;
+		    top: 370px;
+		    border: solid 5px black;
+	    }
+        .play{
+	    	background: url('bplay.png');
+	    	position: absolute;
+	    	top: 30px;
+	    	right: 60px;
+	    	height: 100px;
+	    	width: 100px;
+	    	border: solid 5px black;
+	    }
+
+	    .pausa{
+	    	background: url('bpausa.png');
+	    	position: absolute;
+	    	top: 490px;
+	    	left: 60px;
+	    	height: 100px;
+	    	width: 100px;
+	    	border: solid 5px black;
+
+	    }
+	    
+		
+	</style>
+</head>
+<body bgcolor="#FDF3A0">
+	<audio id="player" src="audiop.mp3" autoplay preload loop ></audio>
+
+	
+		<button class="play" onclick="document.getElementById('player').play()"></button>
+		<button class="pausa" onclick="document.getElementById('player').pause()"></button>
+		
+
+
+	</div>
+
+<div class="tema1" id="tema1"onclick="document.getElementById('cuadro1').style.display='block'"><h1><center>Tema 1</center></div></h1>
+
+<div class="cuadro1" id="cuadro1"><font color="black" face="Times New Roman"><h1><center>Nessa Barrett</center></h1><br><h2> Nessa Barrett es una cantante y compositora<br>estadounidense de Nueva Jersey. Barrett saltó<br> a la fama en la aplicación para compartir<br> videos TikTok en 2019.Es de raíces<br> puertorriqueñas </h2><div style="position: absolute;right:100px;top:100px;"><img src="ness1.jpg"></div>
+</font>
+
+ <div class="cuadroc1" id="cuadroc1"onclick="document.getElementById('cuadro1').style.display='none'"><h1><div>
+ 	<center>Cerrar</center></h1></div>
+      	</div>
+      </div>
+
+
+
+<div class="tema2" id="tema2"onclick="document.getElementById('cuadro2').style.display='block'"><h1><center>Tema 2</center></div></h1>
+
+      	<div class="cuadro2" id="cuadro2"><font color="black" face="Times New Roman"><h1><center>Cancion Representativa</center></h1><br><h2> La canción mas representativa es “la di die” que es<br>  interpretada con jxnd,y es escrita por nessa, con 39<br>  millones de vistas.Esta canción toca el tema de la<br>  fama,de que mucha gente ve la fama como algo genial<br> y fabuloso, cuando en realidad ella y jaden dicen que <br> es un lugar “oscuro y malvado”</h2><div style="position: absolute;right:100px;top:100px;"><img src="ness2.jpg"></div>
+</font>
+
+     <div class="cuadroc2" id="cuadroc2"onclick="document.getElementById('cuadro2').style.display='none'"><h1><div><center>Cerrar</center></h1></div>
+ </div>     	
+      </div>
+
+</body>
+</html>
